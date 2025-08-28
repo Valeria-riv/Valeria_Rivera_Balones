@@ -12,10 +12,7 @@ balon.EstaInflado = false;
 balon.Fecha = DateTime.Now;
 balon.Estado = new Estados(){Id = 5, Est = "Disponible"};
 balon.Deporte = new Deportivos(){Codigo= 1, Referencia = "M25-D69"};
-fac.Cedula = 102254;
-fac.Cantidad = 1;
 fac.NombreComprador = "Valeriaaa";
-fac.Fecha = DateTime.Now;
 
 
 Console.WriteLine(balon.Id);
